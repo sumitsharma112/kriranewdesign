@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krira Pharma | New Way For New India</title>
+    <meta name="description"
+        content="Krira Pharma - Building trust and providing purity. A new way for a new India. High-quality pharmaceutical products.">
+    <link rel="icon" type="image/jpeg" href="https://krirapharmaceutical.com/img/KP%20LOGO.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="https://krirapharmaceutical.com/img/KP%20LOGO.jpg" alt="Krira Pharma Logo">
+                <span>Krira Pharma</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#presence">Our Presence</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#trust">Trust & Purity</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="cart-icon" id="cart-toggle">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <a href="tel:8396913375" class="btn btn-primary nav-cta-btn">Call: 8396913375</a>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button id="close-cart" title="Close Cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be injected here -->
+            <p class="empty-msg">Your cart is empty.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-amount">₹0</span>
+            </div>
+            <button class="btn btn-primary btn-block">Checkout</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cart-overlay"></div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal" id="checkout-modal">
+        <div class="checkout-content glass-card">
+            <div class="checkout-header">
+                <h3>Delivery Details</h3>
+                <button id="close-checkout" title="Close"><i class="fas fa-times"></i></button>
+            </div>
+            <form id="checkout-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="cust-name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="cust-phone" placeholder="Phone Number" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="cust-email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="cust-address" placeholder="Full Delivery Address" rows="3" required></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="cust-city" placeholder="City" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="cust-pincode" placeholder="Pincode" required>
+                    </div>
+                </div>
+                <div class="order-summary">
+                    <h4>Order Total: <span id="checkout-total">₹0</span></h4>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="tagline-badge reveal">New Way For New India</div>
+                <h1 class="reveal">Building <span class="text-accent">Trust</span>, Providing <span
+                        class="text-accent">Purity</span></h1>
+                <p class="reveal">Krira Pharma is dedicated to empowering health through innovation and uncompromising
+                    quality standards. We are your partner in a healthier future.</p>
+                <div class="hero-btns reveal">
+                    <a href="#products" class="btn btn-primary">Explore Products</a>
+                    <a href="#trust" class="btn btn-outline">Our Commitment</a>
+                </div>
+            </div>
+            <div class="hero-image reveal">
+                <img src="backgroundhero.jpg" alt="Krira Pharma - Purity and Trust">
+                <p class="image-credit">Dr. Lalita Ahlawat</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section id="trust" class="trust-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Trust & Purity</h2>
+                <p>Our core values that drive every formulation we create.</p>
+            </div>
+            <div class="trust-grid">
+                <div class="trust-card glass-card reveal">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Unmatched Purity</h3>
+                    <p>Every ingredient is sourced with extreme care and tested for 100% purity before it enters our
+                        production line.</p>
+                </div>
+                <div class="trust-card glass-card reveal">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Patient-Centric</h3>
+                    <p>We build trust by putting patients first, ensuring our products are safe, effective, and
+                        accessible to all.</p>
+                </div>
+                <div class="trust-card glass-card reveal">
+                    <i class="fas fa-microscope"></i>
+                    <h3>Scientific Rigor</h3>
+                    <p>Our formulations are backed by extensive research and manufactured in state-of-the-art
+                        facilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal">
+                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+                        alt="Krira Pharma - Trusted Healthcare Solutions">
+                </div>
+                <div class="about-content reveal">
+                    <div class="section-title text-left">
+                        <h2>About Krira Pharma</h2>
+                    </div>
+                    <p>Krira Pharma is committed to providing high-quality pharmaceutical products that address the
+                        health needs of people across various demographics. Our formulations are backed by research and
+                        manufactured to the highest standards.</p>
+                    <p>We focus on critical health areas including bone health, immunity, pain relief, and heart health,
+                        ensuring that every product we deliver meets the highest quality benchmarks.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>10+</h3>
+                            <p>Premium Products</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>100%</h3>
+                            <p>Quality Assured</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Geographic Presence Section -->
+    <section id="presence" class="presence-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>A Growing Pharmaceutical Presence</h2>
+                <p>Across Six Key States of India</p>
+            </div>
+            <div class="states-grid">
+                <div class="state-card glass-card reveal">
+                    <div class="state-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Haryana</h3>
+                    <p>Available at our outlet in Ballabhgarh. Visit us for all your pharmaceutical needs.</p>
+                </div>
+                <div class="state-card glass-card reveal">
+                    <div class="state-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Delhi</h3>
+                    <p>Find our products in Delhi. Multiple locations available for convenient access.</p>
+                </div>
+                <div class="state-card glass-card reveal">
+                    <div class="state-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Mumbai</h3>
+                    <p>Expanding our reach in Mumbai. Quality pharmaceutical products at your doorstep.</p>
+                </div>
+                <div class="state-card glass-card reveal">
+                    <div class="state-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Uttar Pradesh</h3>
+                    <p>Serving communities across Uttar Pradesh with trusted healthcare solutions.</p>
+                </div>
+                <div class="state-card glass-card reveal">
+                    <div class="state-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Rajasthan</h3>
+                    <p>Bringing quality pharmaceuticals to Rajasthan. Multiple outlets for easy access.</p>
+                </div>
+                <div class="state-card glass-card reveal">
+                    <div class="state-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Madhya Pradesh</h3>
+                    <p>Expanding our presence in Madhya Pradesh with premium pharmaceutical products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Premium Products</h2>
+                <p>Explore our range of high-quality pharmaceutical solutions with detailed compositions.</p>
+            </div>
+            <div class="products-grid" id="products-container">
+                <!-- Products will be injected here via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section id="reviews" class="reviews-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>What Our Customers Say</h2>
+                <p>Trusted by thousands across India</p>
+            </div>
+            <div class="reviews-grid" id="reviews-container">
+                <!-- Reviews will be injected via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="section-title text-left">
+                        <h2>Get In Touch</h2>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Shop no 5, Arya Nagar extension, Milk Plant Rd, near Vita, Sector 64 Corner, Ballabhgarh,
+                                Faridabad, Haryana 121004</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:8396913375">8396913375</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>Infokrirapharma@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form glass-card reveal">
+                    <form id="enquiry-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://krirapharmaceutical.com/img/KP%20LOGO.jpg" alt="Krira Pharma Logo">
+                    <div>
+                        <h3>Krira Pharma</h3>
+                        <p class="footer-tagline">New Way For New India</p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#presence">Our Presence</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#trust">Trust & Purity</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/krira_pharma" target="_blank" rel="noopener"
+                            title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Krira Pharma. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
