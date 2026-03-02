@@ -59,8 +59,8 @@ const products = [
         composition: "Ferric Ammonium Citrate 160mg, Folic Acid 0.5mg, Cyanocobalamin 7.5mg, Cupric Sulfate 30mcg, Manganese Sulfate 30mcg",
         mrp: 175,
         mrpDisplay: "₹175 (200ml)",
-        img: ["krisure.png",
-             "krisure2.png"],
+        img: "krisure.png",
+        img: "krisure2.png",
         category: "Immunity & Iron Booster"
     },
     {
