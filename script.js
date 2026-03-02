@@ -60,7 +60,7 @@ const products = [
         mrp: 175,
         mrpDisplay: "₹175 (200ml)",
         img: "https://krirapharmaceutical.com/img/KRISURE.jpeg",
-        category: "Immunity"
+        category: "Immunity & Iron Booster"
     },
     {
         id: 3,
@@ -70,7 +70,7 @@ const products = [
         mrp: 49,
         mrpDisplay: "₹49",
         img: "https://krirapharmaceutical.com/img/KEFTAL.jpeg",
-        category: "Pain Relief"
+        category: "Spasmodic Pain Relief"
     },
     {
         id: 4,
@@ -80,7 +80,7 @@ const products = [
         mrp: 120,
         mrpDisplay: "₹120 (100ml)",
         img: "https://krirapharmaceutical.com/img/KPDEX.jpeg",
-        category: "Respiratory"
+        category: "Dry & Wet Cough Syrup"
     },
     {
         id: 5,
@@ -89,8 +89,8 @@ const products = [
         composition: "Honey-based cough syrup formulation",
         mrp: 140,
         mrpDisplay: "₹140 (100ml)",
-        img: "https://krirapharmaceutical.com/img/kpdex-h.jpeg",
-        category: "Respiratory"
+        img: "kpdex-h.png",
+        category: "Ayurvedic Cough Syrup"
     },
     {
         id: 6,
@@ -100,7 +100,7 @@ const products = [
         mrp: 350,
         mrpDisplay: "₹350 (Strips)",
         img: "https://krirapharmaceutical.com/img/uti-leo.jpeg",
-        category: "UTI Treatment"
+        category: "UTI & Leucorrhoea Treatment"
     },
     {
         id: 7,
@@ -130,7 +130,7 @@ const products = [
         mrp: 350,
         mrpDisplay: "₹350 (strips)",
         img: "https://krirapharmaceutical.com/img/kpin-nt.jpeg",
-        category: "Neuro Care"
+        category: "Neuro Pain Relief"
     },
     {
         id: 10,
@@ -140,7 +140,7 @@ const products = [
         mrp: 250,
         mrpDisplay: "₹250 (100ml)",
         img: "https://krirapharmaceutical.com/img/kp-boss.jpeg",
-        category: "Personal Care"
+        category: "Personal Care & Herbal Intimate Wash"
     },
     {
         id: 11,
