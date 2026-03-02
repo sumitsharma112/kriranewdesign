@@ -69,7 +69,7 @@ const products = [
         composition: "Mefenamic Acid 250mg & Dicyclomine Hydrochloride 10mg",
         mrp: 49,
         mrpDisplay: "₹49",
-        img: "krisure.png",
+        img: "KEFTAL.PNG",
         category: "Spasmodic Pain Relief"
     },
     {
