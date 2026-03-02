@@ -149,7 +149,7 @@ const products = [
         composition: "Cholecalciferol 60,000 IU",
         mrp: 99,
         mrpDisplay: "₹99 (strips)",
-        img: "https://krirapharmaceutical.com/img/KEFTAL-1.jpeg",
+        img: "Screenshot_20260302-144810.png",
         category: "Bone Health"
     }
 ];
