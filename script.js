@@ -128,7 +128,7 @@ const products = [
         description: "Neurological comfort and support for nerve health.",
         composition: "Pregabalin 75mg & Nortriptyline Hydrochloride 10mg",
         mrp: 350,
-        mrpDisplay: "₹350 (strips)",
+        mrpDisplay: "₹290 (strips)",
         img: "KPINT.PNG",
         category: "Neuro Pain Relief"
     },
