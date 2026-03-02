@@ -60,7 +60,6 @@ const products = [
         mrp: 175,
         mrpDisplay: "₹175 (200ml)",
         img: "krisure.png",
-        img: "krisure2.png",
         category: "Immunity & Iron Booster"
     },
     {
