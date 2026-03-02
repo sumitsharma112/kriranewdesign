@@ -49,7 +49,7 @@ const products = [
         composition: "Calcium Citrate Malate 250mg, Calcitriol 0.25mcg, Vitamin K2-7 45mcg, Zinc Oxide 7.5mg, Magnesium Oxide 50mg",
         mrp: 175,
         mrpDisplay: "₹175 (Strips)",
-        img: "https://krirapharmaceutical.com/img/kri-k27.jpeg",
+        img: "krik-27.png",
         category: "Bone Health"
     },
     {
@@ -59,7 +59,7 @@ const products = [
         composition: "Ferric Ammonium Citrate 160mg, Folic Acid 0.5mg, Cyanocobalamin 7.5mg, Cupric Sulfate 30mcg, Manganese Sulfate 30mcg",
         mrp: 175,
         mrpDisplay: "₹175 (200ml)",
-        img: "https://krirapharmaceutical.com/img/KRISURE.jpeg",
+        img: "krisure.png",
         category: "Immunity & Iron Booster"
     },
     {
@@ -69,7 +69,7 @@ const products = [
         composition: "Mefenamic Acid 250mg & Dicyclomine Hydrochloride 10mg",
         mrp: 49,
         mrpDisplay: "₹49",
-        img: "https://krirapharmaceutical.com/img/KEFTAL.jpeg",
+        img: "krisure.png",
         category: "Spasmodic Pain Relief"
     },
     {
@@ -79,7 +79,7 @@ const products = [
         composition: "Ambroxol 15mg, Dextromethorphan Hbr 10mg, Phenylephrine HCl 5mg, Chlorpheniramine Maleate 2mg, Menthol Syrup 1.5mg",
         mrp: 120,
         mrpDisplay: "₹120 (100ml)",
-        img: "https://krirapharmaceutical.com/img/KPDEX.jpeg",
+        img: "KPDEX.PNG",
         category: "Dry & Wet Cough Syrup"
     },
     {
@@ -99,7 +99,7 @@ const products = [
         composition: "Cranberry Extract 200mg, D-Mannose 200mg, Potassium Magnesium Citrate 975mg",
         mrp: 350,
         mrpDisplay: "₹350 (Strips)",
-        img: "https://krirapharmaceutical.com/img/uti-leo.jpeg",
+        img: "UTI-LEU.png",
         category: "UTI & Leucorrhoea Treatment"
     },
     {
@@ -109,7 +109,7 @@ const products = [
         composition: "Aceclofenac 100mg & Paracetamol 325mg",
         mrp: 120,
         mrpDisplay: "₹120 (Strips)",
-        img: "https://krirapharmaceutical.com/img/aceiramol-p.jpeg",
+        img: "AP.png",
         category: "Pain Relief"
     },
     {
@@ -119,7 +119,7 @@ const products = [
         composition: "Aceclofenac 100mg, Paracetamol 325mg & Serratiopeptidase 15mg",
         mrp: 150,
         mrpDisplay: "₹150 (Strips)",
-        img: "https://krirapharmaceutical.com/img/aceramol-sp.jpeg",
+        img: "ASP.png",
         category: "Pain Relief"
     },
     {
@@ -129,7 +129,7 @@ const products = [
         composition: "Pregabalin 75mg & Nortriptyline Hydrochloride 10mg",
         mrp: 350,
         mrpDisplay: "₹350 (strips)",
-        img: "https://krirapharmaceutical.com/img/kpin-nt.jpeg",
+        img: "KPINT.PNG",
         category: "Neuro Pain Relief"
     },
     {
@@ -139,7 +139,7 @@ const products = [
         composition: "Lactic Acid, Tea Tree Oil, Sea Buckthorn Oil",
         mrp: 250,
         mrpDisplay: "₹250 (100ml)",
-        img: "https://krirapharmaceutical.com/img/kp-boss.jpeg",
+        img: "KPWASH.PNG",
         category: "Personal Care & Herbal Intimate Wash"
     },
     {
